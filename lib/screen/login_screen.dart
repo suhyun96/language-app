@@ -7,8 +7,9 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text('login'),
+          Text('login',style: TextStyle(fontSize: 30.0),),
         ],
       ),
     );

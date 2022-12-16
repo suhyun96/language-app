@@ -62,6 +62,20 @@ flutter:
   assets:
     - asset/img/
 
+  fonts:
+    - family: Spoqa
+      fonts:
+        - asset: asset/font/SpoqaHanSansNeo-Bold.otf
+          weight: 700
+        - asset: asset/font/SpoqaHanSansNeo-Medium.otf
+          weight: 500
+        - asset: asset/font/SpoqaHanSansNeo-Regular.otf
+          weight: 400
+        - asset: asset/font/SpoqaHanSansNeo-Light.otf
+          weight: 300
+        - asset: asset/font/SpoqaHanSansNeo-Thin.otf
+          weight: 100
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

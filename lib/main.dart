@@ -3,7 +3,11 @@ import 'package:language_app/screen/splash_screen.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        fontFamily: 'Spoqa',
+      ),
       home: SplashScreen(),
     ),
   );

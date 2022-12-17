@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     // 2초 뒤에 로그인 화면으로 이동
     Timer(
-      Duration(milliseconds: 3000),
+      Duration(milliseconds: 1000),
       () {
         // pushAndRemoveUntil -> 그냥 push면 취소버튼 누를 때 스플래쉬 화면 나옴
         Navigator.of(context).pushAndRemoveUntil(

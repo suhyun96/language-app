@@ -37,6 +37,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  # 수정
+  flutter_native_splash: ^2.2.16
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -106,3 +109,23 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+# flutter_native_splash
+flutter_native_splash:
+  color: "#ffffff"
+  image: asset/img/logo.png
+  branding: asset/img/branding.png
+  color_dark: "#121212"
+  image_dark: asset/img/logo.png
+  branding_dark: asset/img/branding.png
+
+  android_12:
+    image: asset/img/logo.png
+    branding: asset/img/branding.png
+    icon_background_color: "#ffffff"
+    image_dark: asset/img/logo.png
+    icon_background_color_dark: "#121212"
+    branding_dark: asset/img/branding.png
+
+  web: false
+

@@ -114,18 +114,18 @@ flutter:
 flutter_native_splash:
   color: "#ffffff"
   image: asset/img/logo.png
-  branding: asset/img/branding.png
+  #branding: asset/img/branding.png
   color_dark: "#121212"
   image_dark: asset/img/logo.png
-  branding_dark: asset/img/branding.png
+  #branding_dark: asset/img/branding.png
 
   android_12:
     image: asset/img/logo.png
-    branding: asset/img/branding.png
+    #branding: asset/img/branding.png
     icon_background_color: "#ffffff"
     image_dark: asset/img/logo.png
     icon_background_color_dark: "#121212"
-    branding_dark: asset/img/branding.png
+    #branding_dark: asset/img/branding.png
 
   web: false
 
